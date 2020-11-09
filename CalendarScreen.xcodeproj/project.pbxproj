@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -71,15 +71,39 @@
 		914E46D725584B5C00DE248D /* CalendarScreen */ = {
 			isa = PBXGroup;
 			children = (
+				91DE3941255945E900C56A2F /* Model */,
+				91DE3940255945E200C56A2F /* View */,
+				91DE393F255945D000C56A2F /* Controller */,
 				914E46D825584B5C00DE248D /* AppDelegate.swift */,
 				914E46DA25584B5C00DE248D /* SceneDelegate.swift */,
-				914E46DC25584B5C00DE248D /* ViewController.swift */,
-				914E46DE25584B5C00DE248D /* Main.storyboard */,
 				914E46E125584B6000DE248D /* Assets.xcassets */,
-				914E46E325584B6000DE248D /* LaunchScreen.storyboard */,
 				914E46E625584B6000DE248D /* Info.plist */,
 			);
 			path = CalendarScreen;
+			sourceTree = "<group>";
+		};
+		91DE393F255945D000C56A2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				914E46DC25584B5C00DE248D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91DE3940255945E200C56A2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				914E46DE25584B5C00DE248D /* Main.storyboard */,
+				914E46E325584B6000DE248D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91DE3941255945E900C56A2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FA4E42F85174FA9022514822 /* Pods */ = {
@@ -88,7 +112,6 @@
 				EDD063B587D70141C5B15B7D /* Pods-CalendarScreen.debug.xcconfig */,
 				067753D38D7F8A5FC7F69F24 /* Pods-CalendarScreen.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
